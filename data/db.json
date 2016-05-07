@@ -1,0 +1,52 @@
+{
+  "persons": [
+    {
+      "user": "Sandra",
+      "age": "25 years-old",
+      "height": "1.65",
+      "weight": "50 Kg"
+    },
+    {
+      "user": "Pedro",
+      "age": "28 years-old",
+      "height": "1.79",
+      "weight": "80 Kg"
+    },
+    {
+      "user": "José",
+      "age": "22 years-old",
+      "height": "1.75",
+      "weight": "65 Kg"
+    },
+    {
+      "user": "Maria",
+      "age": "29 years-old",
+      "height": "1.60",
+      "weight": "55 Kg"
+    },
+    {
+      "user": "Paulo",
+      "age": "28 years-old",
+      "height": "1.90",
+      "weight": "100 Kg"
+    },
+    {
+      "user": "Rogério",
+      "age": "35 years-old",
+      "height": "1.85",
+      "weight": "90 Kg"
+    },
+    {
+      "user": "Thiago",
+      "age": "33 years-old",
+      "height": "1.75",
+      "weight": "76 Kg"
+    },
+    {
+      "user": "Ana",
+      "age": "31 years-old",
+      "height": "1.70",
+      "weight": "62 Kg"
+    }
+  ]
+}

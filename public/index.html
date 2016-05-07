@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="angstudy">
+  <head>
+    <meta charset="utf-8">
+    <title>Project Angular 1</title>
+    <link rel="stylesheet" href="css/style.css">
+		<script src="js/lib/angular.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/controllers/cards-controller.js"></script>
+    <script src="js/directives/modal-dialog.js"></script>
+  </head>
+  <body ng-controller="CardsController">
+      <div class="container">
+
+        <div class="cards" ng-repeat="card in cards">
+          <h3>{{card.user}}</h3>
+          <button type="button" name="play" title="play" ng-click="toggleModal(card)">Play</button>
+        </div>
+
+      </div>
+
+      <my-modal show='modalShown' width='250px' height='30%'>
+        <h3>{{card.user}}</h3>
+        <p>{{card.age}}</p>
+        <p>{{card.height}}</p>
+        <p>{{card.weight}}</p>
+      </my-modal>
+  </body>
+</html>
